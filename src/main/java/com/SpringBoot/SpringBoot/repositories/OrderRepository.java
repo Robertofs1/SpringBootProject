@@ -2,9 +2,9 @@ package com.SpringBoot.SpringBoot.repositories;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import com.SpringBoot.SpringBoot.entities.Order;
+import com.SpringBoot.SpringBoot.entities.User;
 
 
-public interface UserRepository extends JpaRepository<Order, Long>{
+public interface OrderRepository extends JpaRepository<User, Long>{
 
 }
